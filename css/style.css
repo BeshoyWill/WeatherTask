@@ -1,0 +1,229 @@
+/* Custom Classes */
+.w-80px {
+  width: 5rem;
+}
+
+.w-20px {
+  width: 1.25rem;
+}
+
+.w-icons {
+  width: 1.875rem;
+}
+
+.fs-info {
+  font-size: 0.875rem;
+}
+
+.text-color {
+  color: #8b8d92;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar .container {
+  padding-inline: 80px;
+  padding-block: 40px;
+}
+
+.logo-container picture img {
+  width: 80px;
+  /* display: inline-block; */
+}
+
+.logo-text {
+  font-size: 9px;
+  color: white;
+  padding-top: 20px;
+}
+
+.logo-text p {
+  color: rgba(255, 255, 255, 0.504);
+  padding-left: 10px;
+}
+
+.logo-text h1 {
+  font-size: 16px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 15px;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 3.125rem;
+  padding-block: 0.125rem !important;
+  padding-inline: 1.5625rem !important;
+  transition: color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #1779d8;
+  border-color: #1779d8;
+}
+
+.navbar-nav .nav-link.active {
+  padding-block: 0.125rem;
+  padding-inline: 1.5625rem;
+  color: #1779d8;
+  border-color: #1779d8;
+}
+
+.navbar-toggler {
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  padding: 20px;
+  transition: color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+  font-size: 0.875rem;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler:hover {
+  color: #1779d8;
+  border: 2px solid #1779d8;
+}
+
+/* Start Input Form Section */
+.input-form {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 70px 0;
+  min-height: 350px;
+}
+
+.searchResults {
+  background-color: #1e202b;
+  color: white;
+  margin-top: 5px;
+}
+
+#search {
+  background-color: #1e202b;
+  border: none;
+  font-size: 0.9375rem;
+  padding-inline: 1.25rem;
+  padding-block: 0.9375rem;
+  border-radius: 100vh;
+}
+
+#search:focus {
+  box-shadow: none;
+  border: none;
+}
+
+#search::placeholder {
+  color: #5a5a5a;
+  font-size: 0.875rem;
+}
+
+.search-item {
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.search-item:hover {
+  background-color: #1779d8;
+  color: white;
+}
+
+.form-search-button {
+  margin: 0.4688rem;
+  top: 0;
+  right: 0;
+  position: absolute;
+  color: white;
+  font-size: 0.875rem;
+  background-color: #009ad8;
+}
+.form-search-button:hover {
+  background-color: #009ad8;
+  color: white;
+}
+
+/* Start Forecast Result Section */
+.forecast-result {
+  background-color: #1e202b;
+}
+
+.forecast-result .row {
+  align-self: stretch !important;
+}
+
+.forecast-result .container {
+  bottom: 2.5rem;
+}
+
+.forecast-body {
+  min-height: calc(100% - 40px);
+  justify-content: space-evenly;
+}
+
+.sunrise {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sunset, .sunset span {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.688);
+}
+
+.date-info {
+  background-color: #2d303d;
+}
+.col-md-4 {
+  background-color: #323544;
+}
+
+.second-item {
+  background-color: #262936;
+}
+
+.second-item .date-info {
+  background-color: #222530;
+}
+
+/* Start Footer Seaction */
+.footer {
+  background-color: #323544;
+}
+
+.social-links i {
+  font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  background-color: #1e202b;
+  color: #1779d8;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-links i:hover {
+  color: white;
+  background-color: #1779d8;
+}
+
+.footer p {
+  color: #8b8d92;
+}
